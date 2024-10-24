@@ -1,0 +1,9 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+azure-storage-blob==12.23.1
+python-dotenv==1.0.1
+oracledb==2.4.1
+numpy==2.1.1
